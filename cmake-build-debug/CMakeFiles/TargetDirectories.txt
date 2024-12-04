@@ -1,0 +1,3 @@
+C:/Users/Eddy/CLionProjects/AoC_2024/cmake-build-debug/CMakeFiles/AoC_2024.dir
+C:/Users/Eddy/CLionProjects/AoC_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Eddy/CLionProjects/AoC_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
