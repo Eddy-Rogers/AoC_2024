@@ -4,5 +4,5 @@
 using namespace std;
 
 int main() {
-    cout << Process_Day2_File() << endl;
+    cout << Process_Day3_File() << endl;
 }

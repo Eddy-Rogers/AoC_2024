@@ -12,23 +12,23 @@
 
 using namespace std;
 
-int Get_Number(string line) {
+int Get_Number_2(string line) {
     return stoi(line.substr(0, line.find(" ")));
 }
 
-string pop(string line) {
+string pop_2(string line) {
     // Check if this is the last number in the line
     if(line.find(" ") == std::string::npos) return "";
     else return line.substr(line.find(" ") + 1);
 }
 
-bool Determine_Safe(string line) {
+bool Determine_Safe_2(string line) {
     bool safe = true;
 
-    int previous = Get_Number(line);
-    line = pop(line);
-    int current = Get_Number(line);
-    line = pop(line);
+    int previous = Get_Number_2(line);
+    line = pop_2(line);
+    int current = Get_Number_2(line);
+    line = pop_2(line);
 
     const bool increasing = current > previous;
 
@@ -48,8 +48,8 @@ bool Determine_Safe(string line) {
 
     while(line.size() > 0) {
         previous = current;
-        current = Get_Number(line);
-        line = pop(line);
+        current = Get_Number_2(line);
+        line = pop_2(line);
 
         if(previous == current) {
             safe = false;
@@ -70,7 +70,7 @@ bool Determine_Safe(string line) {
     return safe;
 }
 
-int Process_Day2_File() {
+int Process_Day2Part2_File() {
     ifstream inputfile;
     inputfile.open("day2input.txt");
 
@@ -84,7 +84,7 @@ int Process_Day2_File() {
     while (!inputfile.eof()) {
         char line[50];
         inputfile.getline(line, 50);
-        ans += Determine_Safe(string(line)) ? 1 : 0;
+        ans += Determine_Safe_2(string(line)) ? 1 : 0;
     }
 
     return ans;

@@ -61,8 +61,32 @@ build CMakeFiles/AoC_2024.dir/Day1.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Deb
   OBJECT_DIR = CMakeFiles\AoC_2024.dir
   OBJECT_FILE_DIR = CMakeFiles\AoC_2024.dir
 
+build CMakeFiles/AoC_2024.dir/Day1Part2.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Debug C$:/Users/Eddy/CLionProjects/AoC_2024/Day1Part2.cpp || cmake_object_order_depends_target_AoC_2024
+  DEP_FILE = CMakeFiles\AoC_2024.dir\Day1Part2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AoC_2024.dir
+  OBJECT_FILE_DIR = CMakeFiles\AoC_2024.dir
+
 build CMakeFiles/AoC_2024.dir/Day2.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Debug C$:/Users/Eddy/CLionProjects/AoC_2024/Day2.cpp || cmake_object_order_depends_target_AoC_2024
   DEP_FILE = CMakeFiles\AoC_2024.dir\Day2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AoC_2024.dir
+  OBJECT_FILE_DIR = CMakeFiles\AoC_2024.dir
+
+build CMakeFiles/AoC_2024.dir/Day2Part2.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Debug C$:/Users/Eddy/CLionProjects/AoC_2024/Day2Part2.cpp || cmake_object_order_depends_target_AoC_2024
+  DEP_FILE = CMakeFiles\AoC_2024.dir\Day2Part2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AoC_2024.dir
+  OBJECT_FILE_DIR = CMakeFiles\AoC_2024.dir
+
+build CMakeFiles/AoC_2024.dir/Day3.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Debug C$:/Users/Eddy/CLionProjects/AoC_2024/Day3.cpp || cmake_object_order_depends_target_AoC_2024
+  DEP_FILE = CMakeFiles\AoC_2024.dir\Day3.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AoC_2024.dir
+  OBJECT_FILE_DIR = CMakeFiles\AoC_2024.dir
+
+build CMakeFiles/AoC_2024.dir/Day3Part2.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Debug C$:/Users/Eddy/CLionProjects/AoC_2024/Day3Part2.cpp || cmake_object_order_depends_target_AoC_2024
+  DEP_FILE = CMakeFiles\AoC_2024.dir\Day3Part2.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\AoC_2024.dir
   OBJECT_FILE_DIR = CMakeFiles\AoC_2024.dir
@@ -75,7 +99,7 @@ build CMakeFiles/AoC_2024.dir/Day2.cpp.obj: CXX_COMPILER__AoC_2024_unscanned_Deb
 #############################################
 # Link the executable AoC_2024.exe
 
-build AoC_2024.exe: CXX_EXECUTABLE_LINKER__AoC_2024_Debug CMakeFiles/AoC_2024.dir/main.cpp.obj CMakeFiles/AoC_2024.dir/Day1.cpp.obj CMakeFiles/AoC_2024.dir/Day2.cpp.obj
+build AoC_2024.exe: CXX_EXECUTABLE_LINKER__AoC_2024_Debug CMakeFiles/AoC_2024.dir/main.cpp.obj CMakeFiles/AoC_2024.dir/Day1.cpp.obj CMakeFiles/AoC_2024.dir/Day1Part2.cpp.obj CMakeFiles/AoC_2024.dir/Day2.cpp.obj CMakeFiles/AoC_2024.dir/Day2Part2.cpp.obj CMakeFiles/AoC_2024.dir/Day3.cpp.obj CMakeFiles/AoC_2024.dir/Day3Part2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AoC_2024.dir

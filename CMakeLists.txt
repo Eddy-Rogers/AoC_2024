@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(AoC_2024 main.cpp
         Day1.cpp
         Functions.h
-        Day2.cpp)
+        Day1Part2.cpp
+        Day2.cpp
+        Day2Part2.cpp
+        Day3.cpp
+        Day3Part2.cpp)

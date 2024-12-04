@@ -6,6 +6,9 @@
 #define FUNCTIONS_H
 
 int Process_Day1_File();
+int Process_Day1Part2_File();
 int Process_Day2_File();
+int Process_Day2Part2_File();
+int Process_Day3_File();
 
 #endif //FUNCTIONS_H
